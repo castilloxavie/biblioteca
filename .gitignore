@@ -79,3 +79,8 @@ logging/
 *.db
 *.sql.bak
 docker-compose.override.yml
+
+# Ignorar configuración sensible
+config/env.py
+.env
+*.env
