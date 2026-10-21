@@ -1,0 +1,81 @@
+# ==========================================
+# ENTORNOS VIRTUALES Y PYTHON
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# SEGURIDAD Y VARIABLES DE ENTORNO (CRÍTICO)
+# ==========================================
+# Nunca subas contraseñas o secretos a GitHub
+.env
+.env.*
+!.env.example
+config/.env
+*.pem
+*.key
+
+# ==========================================
+# ENTORNOS DE DESARROLLO (IDE)
+# ==========================================
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# ==========================================
+# SISTEMA OPERATIVO Y LOGS
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs del sistema
+*.log
+logs/
+logging/
+
+# ==========================================
+# BASE DE DATOS LOCAL Y DOCKER
+# ==========================================
+# Archivos de volcado locales
+*.sqlite3
+*.db
+*.sql.bak
+docker-compose.override.yml
